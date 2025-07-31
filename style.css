@@ -1,0 +1,100 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+.container{
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+    padding: 40px;
+    border: solid black 3px;
+    box-shadow: 0px 10px 12px;
+    max-width: 600px;
+    width: 90%;
+}
+
+h1{
+    font-size: 2em;
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.quote-area{
+    padding: 20px;
+    margin: 20px 0;
+    background-color: rgb(71, 253, 193);
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,1) ;
+    /* background: rgba( 255, 255, 255, 0.1 ); */
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+
+
+#quotes{
+    font-size: 1.2em;
+    color: rgb(255, 0, 255);
+    padding: 20px;
+
+
+}
+
+#author{
+    font-size: 1.1em;
+    color: rgb(141, 90, 90);
+    margin: 30px;
+    font-family:  serif;
+    font-style: italic;
+  }
+
+
+.tombol{
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.tombol:hover {
+  background-color: rgb(255, 3, 3);
+  transition: 0.5s ease-in-out;
+}
+
+.tombol:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform:  translate(12px, 12px) ;
+}
+
+@media (min-width: 768px) {
+  .tombol {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
